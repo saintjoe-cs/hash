@@ -12,7 +12,6 @@ function simpleHash(data) {
   for (var i = 0; i < data.length; ++i) {
     total += data.charCodeAt(i);
   }
-  print("Hash value: " + data + " -> " + total);
   return total % this.table.length;
 }
 
