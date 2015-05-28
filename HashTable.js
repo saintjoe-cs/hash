@@ -1,7 +1,6 @@
 function HashTable() {
   this.table = new Array(137);
   this.simpleHash = simpleHash;
-  this.betterHash = betterHash;
   this.showDistro = showDistro;
   this.put = put;
   //this.get = get;

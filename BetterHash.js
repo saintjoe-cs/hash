@@ -1,6 +1,5 @@
 function HashTable() {
   this.table = new Array(137);
-  this.simpleHash = simpleHash;
   this.betterHash = betterHash;
   this.showDistro = showDistro;
   this.put = put;
@@ -22,7 +21,7 @@ function betterHash(string) {
 
 
 function put(data) {
-  var pos = this.simpleHash(data);
+  var pos = this.betterHash(data);
   this.table[pos] = data;
 }
 

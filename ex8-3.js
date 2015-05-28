@@ -1,4 +1,4 @@
-load('./HashTable.js');
+load('./BetterHash.js');
 
 var someNames = ["David", "Jennifer", "Donnie", "Raymond",
  "Cynthia", "Mike", "Clayton", "Danny", "Jonathan"];
